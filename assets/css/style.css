@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -109,7 +111,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text > h2,
+#cover-text > h3 {
     color: #ffffff;
 }
 
@@ -152,9 +155,9 @@ main {
 }
 
 #benefits-image {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -174,6 +177,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -230,16 +234,17 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    /* Reasons sections */
+    /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
