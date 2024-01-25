@@ -89,11 +89,11 @@ main {
     margin-top: 47px;
 }
 
-/* Hero section styles */
+/* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.webp') no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -109,7 +109,7 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2, #cover-text>h3 {
     color: #ffffff;
 }
 
@@ -163,7 +163,7 @@ main {
         margin-top: 79px;
     }
 
-    /* Hero */
+    /* Hero image */
     #cover-text {
         width: 300px;
         right: 50px;
